@@ -2,7 +2,8 @@
 from lazyloader import LazyLoader
 tf = LazyLoader('tf', globals(), 'tensorflow')
 
-# from lib.utils.image import logger
+import logging
+logger = logging.getLogger(__name__)
 
 import matplotlib as mpl
 import matplotlib.pyplot as plt
