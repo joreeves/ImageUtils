@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(name='ImageUtils',
       version='0.1',
@@ -7,7 +7,7 @@ setup(name='ImageUtils',
       author='Josiah Reeves',
       author_email='',
       license='MIT',
-      packages=['imageutils'],
+      packages=find_packages(),
       install_requires=['numpy', 'matplotlib', 'scikit-image',
-      'lazyloader @ git+ssh://git@github.com/joreeves/LazyLoader.git'],
+      'lazyloader @ git+github.com/joreeves/LazyLoader.git'],
       zip_safe=False)
