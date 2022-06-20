@@ -9,5 +9,5 @@ setup(name='ImageUtils',
       license='MIT',
       packages=find_packages(),
       install_requires=['numpy', 'matplotlib', 'scikit-image',
-      'lazyloader @ git+github.com/joreeves/LazyLoader.git'],
+      'lazyloader @ git+https://github.com/joreeves/LazyLoader.git'],
       zip_safe=False)
