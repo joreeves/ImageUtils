@@ -1,4 +1,4 @@
-from lib.utils.lazy_loader import LazyLoader
+from lazyloader import LazyLoader
 tf = LazyLoader("tf", globals(), "tensorflow")
 
 from ._clr_base import COLORSPACE
