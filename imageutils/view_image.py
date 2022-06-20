@@ -11,7 +11,7 @@ import numpy as np
 # import cv2
 from skimage.transform import resize
 
-from .color import get_color
+from .colorspace import get_color
 
 def viewImg(imgs,
             size        = (10,10),
