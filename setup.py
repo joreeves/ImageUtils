@@ -8,6 +8,6 @@ setup(name='ImageUtils',
       author_email='',
       license='MIT',
       packages=['imageutils'],
-      install_requires=['numpy', 'matplotlib', 'scikit-image'],
-      dependency_links=['https://github.com/joreeves/LazyLoader/tarball/master'],
+      install_requires=['numpy', 'matplotlib', 'scikit-image',
+      'lazyloader @ git+ssh://git@github.com/joreeves/LazyLoader.git'],
       zip_safe=False)
